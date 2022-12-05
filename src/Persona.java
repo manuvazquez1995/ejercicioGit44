@@ -1,8 +1,12 @@
 import java.util.Date;
 
-public class Persona {
-    String nombre;
-    int edad;
-    Date fechaContratacion;
+class Empleado {
+    final String nombre;
+    Date birthDate;
+
+    Empleado(String name, Date birthDate) {
+        this.nombre = name;
+        this.birthDate = birthDate;
+    }
 
 }
